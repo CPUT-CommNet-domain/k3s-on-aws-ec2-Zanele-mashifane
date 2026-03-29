@@ -34,7 +34,7 @@ Record the values — you will need them throughout this guide:
 |----------|------------|-----------|
 | k3s-master-1 | 172.31.17.207 | 98.93.255.159 |
 | k3s-master-2 | 172.31.18.154 |54.226.170.239 |
-| k3s-master-3 | 172.31.39.5 | 54.172.112.146 |
+| k3s-master-3 | 172.31.26.110 |34.207.244.254 |
 
 ---
 
@@ -76,7 +76,7 @@ Add an entry for each node so they can resolve each other by hostname. Replace t
 sudo tee -a /etc/hosts <<EOF
  172.31.17.207 k3s-master-1
 172.31.18.154  k3s-master-2
-10.0.1.12  k3s-master-3
+172.31.26.110  k3s-master-3
 EOF
 ```
 
